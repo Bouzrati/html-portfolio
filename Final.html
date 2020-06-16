@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+        * {
+  margin: 0;
+  padding: 0;
+}
+		.header { background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+  }
+  
+
+@media only screen and (max-width: 760px) {width: 100%;
+}
+  body {
+    background-color: lightblue;
+  }
+	</style>
+    <style> .flex-container {
+  display: flex;
+  background-color: rgb(30, 255, 86);
+  width: fit-content;
+} 
+.flex-container > div1 {
+    background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+#main {
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+}
+#main div {
+     flex:1 ;
+}
+.grid-containerz {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 10px;
+  background-color:violet;
+  padding: 10px;
+  width: min-content;
+}
+
+
+
+.grid-container {
+  display: row-grid;
+  grid-template-columns:max-content;
+  background-color: #2196F3;
+  padding: 30px;
+  width: min-content;
+  
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.textarea {background-color: tomato;
+color: turquoise;
+}
+
+</style>  
+
+<title> Mon portfolio </title>
+ 
+  </head>
+     <body>
+		 
+		 <div class="header">
+       <h1>mywebsite</h1>
+	</div>	
+       
+<nav>
+  <ul>
+    <li><a href="g">Home</a> </a></li>
+    <li><a href="g">About</a></li>
+    <li><a href="g">Contact</a></li>
+  </ul>
+</nav>
+       </header>
+       <br> <br>
+       <main>
+         <h1> Biographie </h1>
+         <br> <br>
+         
+       
+<article>
+    <img src="Bouzrati.jpg" width="450"height="300"  alt="my photo">
+    <form> 
+      <label> Name: </label>
+      <input type="text" name="First Name" placeholder="Mohamed Amine"/>
+      <br/>
+      <label> Date of birth </label>
+      <input type="date" placeholder="08/05/1992"/>
+      <br/>
+      </form>
+      <br> <br>
+<p>Mohamed Amine Bouzrati<br> <br> An Aeronautical Engineer<br> <br>I'm from Tunisia
+</p>
+<br> <br>
+<br> <br>
+<h2>My Skills</h2>
+<br> <br>
+<div id="main">
+  <div style="background-color:coral;">Air Navigation</div>
+  <div style="background-color:lightblue;">Cell Reactor</div>  
+  <div style="background-color:lightgreen;">Maintenance.</div>
+</div>
+<br> <br>
+
+<div1 class="flex-container">
+  <div1>Air Navigation</div1>
+  <div1>Cell Reactor</div1>
+  <div1>Maintenance</div1>  
+</div1>
+<br> <br>
+</article>
+ <section>    
+<video controls><source src="Aeronautics and Aerospace (Hindi).mp4" type="video/mp4">
+</video>
+</section> <br> <br>
+<section>
+<audio controls><source src="Stone Cold Steve Austin Classic  Theme Song.mp3" type="audio/mp3"> 
+</audio>
+</section>
+<br> <br> <br>
+<h2>Languages</h2>
+<div class="grid-containerz">
+  <ul>
+    <li>Arabic</li>
+    <li>French</li>
+    <li>English</li>
+    <li>Italian</li>
+    <li>Deutsch</li>
+  </ul>
+</div>
+<br> <br>
+<h2> My Hobbies </h2>
+<div class="grid-container">
+  <div class="grid-item">Football</div>
+  <div class="grid-item">Tennis</div>
+  <div class="grid-item">Tv Shows</div>  
+  
+</div>
+<br> <br>
+<table border="2" width"150" height "50">
+<tr>
+    <th> Number </th>
+    <td> 21543438 </td>
+</tr>
+<tr>
+    <th> Email adress </th>
+    <td> aminebouzrati5@gmail.com </td>
+</tr>
+</table>
+<br><br>
+</main> <br>
+<textarea class="textarea" name="message" cols="7"rows="5">
+  Goodbye Fans 
+</textarea> <br> <br> <br>
+<footer>
+<a href=" #mywebsite "> Take me to my Website </a>
+</footer>
+  </body>
+</html>
